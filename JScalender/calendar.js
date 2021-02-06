@@ -15,11 +15,9 @@ if (argv.m) {
 } else {
   month = dateToday.getMonth()
 }
-console.log(`month=${month}`)
 
 // 日付を生成
 const dt = new Date(year, month, 1)
-console.log(`${dt}`)
 
 const week = dt.getDay()
 // カレンダー出力
